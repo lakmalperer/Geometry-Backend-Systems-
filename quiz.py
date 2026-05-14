@@ -20,3 +20,6 @@ def convex_hull(points):
             return points
         
         lower = []
+
+        for p in points:
+             
