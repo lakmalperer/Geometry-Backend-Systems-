@@ -15,3 +15,6 @@ def distance(p1, p2):
 
 def convex_hull(points):
         points = sorted(set(points))
+
+        if len(points) <= 1:
+            return points
