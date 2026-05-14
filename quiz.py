@@ -22,4 +22,5 @@ def convex_hull(points):
         lower = []
 
         for p in points:
-             
+             while len(lower) >= 2 and cross(lower[-2], lower[-1], p) <= 0:
+                lower.pop()
