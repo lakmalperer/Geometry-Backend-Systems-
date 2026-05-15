@@ -49,3 +49,5 @@ def hull_perimeter(hull):
             perimeter += distance(hull[i], hull[(i + 1) % n])
         
         return perimeter
+
+def main():
