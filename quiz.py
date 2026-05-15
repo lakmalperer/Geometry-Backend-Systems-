@@ -44,5 +44,5 @@ def hull_perimeter(hull):
             return 0.0
         
         perimeter = 0.0
-     
+        for i in range(n):
         
