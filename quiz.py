@@ -64,3 +64,6 @@ def main():
             points.append((x2, y2))
 
         hull = convex_hull(points)
+
+
+        perimeter = hull_perimeter(hull)
