@@ -38,4 +38,6 @@ def convex_hull(points):
 
 def hull_perimeter(hull):
      
+     n = len(hull)
+     
         
