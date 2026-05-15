@@ -62,3 +62,5 @@ def main():
             points.append((x1, y2))
             points.append((x2, y1))
             points.append((x2, y2))
+
+        hull = convex_hull(points)
