@@ -67,3 +67,5 @@ def main():
 
 
         perimeter = hull_perimeter(hull)
+
+        print(f"{perimeter:.6f}")
