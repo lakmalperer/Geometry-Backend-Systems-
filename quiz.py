@@ -35,4 +35,7 @@ def convex_hull(points):
 
 
         return lower[:-1] + upper[:-1]
+
+def hull_perimeter(hull):
+     
         
