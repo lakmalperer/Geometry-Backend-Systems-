@@ -51,3 +51,5 @@ def hull_perimeter(hull):
         return perimeter
 
 def main():
+        n = int(input())
+        
