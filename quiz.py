@@ -56,4 +56,4 @@ def main():
         points = []
 
         for _ in range(n):
-        
+            x1, y1, x2, y2 = map(float, input().split())
