@@ -57,3 +57,8 @@ def main():
 
         for _ in range(n):
             x1, y1, x2, y2 = map(float, input().split())
+
+            points.append((x1, y1))
+            points.append((x1, y2))
+            points.append((x2, y1))
+            points.append((x2, y2))
