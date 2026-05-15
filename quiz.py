@@ -54,4 +54,6 @@ def main():
         n = int(input())
 
         points = []
+
+        for _ in range(n):
         
