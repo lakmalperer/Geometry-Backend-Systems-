@@ -52,4 +52,6 @@ def hull_perimeter(hull):
 
 def main():
         n = int(input())
+
+        points = []
         
