@@ -43,5 +43,6 @@ def hull_perimeter(hull):
         if n == 1:
             return 0.0
         
+        perimeter = 0.0
      
         
